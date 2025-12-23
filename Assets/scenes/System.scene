@@ -1,0 +1,108 @@
+{
+  "__guid": "92d8e9a3-ccfb-4e74-bf21-56e16a98312e",
+  "GameObjects": [
+    {
+      "__guid": "3157df19-7b35-4812-a638-cb9706a568c0",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "3cf827bd-c2fc-4651-bd6d-1238f763d548",
+          "__enabled": true,
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "EnablePostProcessing": true,
+          "FieldOfView": 60,
+          "FovAxis": "Horizontal",
+          "IsMainCamera": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "PostProcessAnchor": null,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "RenderTexture": null,
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "cb773bae-1f67-45f9-9f8a-547934c84b33",
+      "__version": 1,
+      "__Prefab": "prefabs/player.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "99d50656-fc9d-400f-b7bd-5db54145e7f4"
+            },
+            "Property": "Name",
+            "Value": "Player"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "99d50656-fc9d-400f-b7bd-5db54145e7f4": "cb773bae-1f67-45f9-9f8a-547934c84b33",
+        "4328a930-6091-4b48-a774-1d23f126cdde": "3cb3e5fa-97e8-4cfd-a9c0-55085046bd69",
+        "7f8704b6-3dee-4213-b01d-f7685d9160df": "468506da-622a-42bb-b390-7a17b8c2c974",
+        "915a6ec2-daf9-4c28-8a42-0519cab72862": "9b12c78c-71a3-49d5-ad05-fd414cd3a7c3",
+        "e10f39e9-2c58-4393-aed3-aaad5e84637c": "30a042e4-46e4-451e-b4a5-baf2c85a215a",
+        "15a4f103-7467-4c9b-94c5-9c77aa45bdba": "4ce70760-bfa3-4c1a-bd12-dd1674a22630",
+        "8e347439-ba74-420e-b8dd-1f79892623fb": "0e3c1fda-4350-4ade-b750-390563caf8df",
+        "6a1f1681-8011-47e2-b2a0-f518756b015c": "3c8ea672-e858-4673-a80c-2def9180bad8",
+        "f5b6dc02-056f-4fc0-a46b-c4dcb9155fcd": "b344b81e-9915-44d9-acc3-e22011aa0793",
+        "f11af00b-4dad-4de8-99f4-476541c580f9": "a55cf165-2a85-4d2d-898c-12dfba1974fe",
+        "7ff5f557-98ce-4712-98bb-38135d517375": "06600fcb-f38f-48f3-ada9-4573a764871c"
+      }
+    }
+  ],
+  "SceneProperties": {
+    "NetworkInterpolation": true,
+    "TimeScale": 1,
+    "WantsSystemScene": true,
+    "Metadata": {},
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "ResourceVersion": 3,
+  "Title": null,
+  "Description": null,
+  "__references": [],
+  "__version": 3
+}

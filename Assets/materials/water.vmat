@@ -1,0 +1,61 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/water/cs2water.shader"
+
+	//---- Caustics ----
+	F_CAUSTICS 1
+
+	//---- Edge Foam ----
+	F_FOAM 1
+
+	//---- Caustics ----
+	CausticsTexture "materials/default/default.tga"
+	g_flCausticsScale "100.000"
+	g_flCausticsSpeed "0.500"
+	g_flCausticsStrength "1.000"
+
+	//---- Flow ----
+	g_flNormalUvScale "1.000"
+
+	//---- Foam ----
+	FoamTexture "materials/default/default.tga"
+	g_flFoamContrast "1.500"
+	g_flFoamDepth "20.000"
+	g_flFoamScale "50.000"
+	g_flFoamSharpness "3.000"
+	g_flFoamSpeed "0.500"
+	g_vFoamColor "[0.949020 0.949020 0.949020 1.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Normals ----
+	NormalMapA "textures/water/water_normal.jpg"
+	NormalMapB "textures/water/water_normal.jpg"
+
+	//---- Reflection ----
+	g_flReflectance "0.000"
+	g_flReflectionDistortion "0.100"
+
+	//---- Refraction ----
+	g_flRefractionAmount "0.100"
+	g_flRefractionClipPlaneAdjust "0.000"
+
+	//---- Surface ----
+	g_flGlossiness "0.980"
+	g_flMetalness "0.850"
+	g_flNormalScale "200.000"
+	g_flNormalSpeed "0.300"
+	g_flNormalStrength "1.000"
+
+	//---- Water Fog ----
+	g_flAboveWaterFogEnd "500.000"
+	g_flAboveWaterFogStart "100.000"
+	g_flUnderWaterFogDensity "0.015"
+	g_flWaterDepth "200.000"
+	g_flWaterStart "0.000"
+	g_vRefractionTint "[0.400000 0.701961 0.800000 1.000000]"
+	g_vWaterFogColor "[0.000000 0.301961 0.501961 1.000000]"
+}

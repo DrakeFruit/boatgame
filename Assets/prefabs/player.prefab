@@ -1,0 +1,283 @@
+{
+  "RootObject": {
+    "__guid": "99d50656-fc9d-400f-b7bd-5db54145e7f4",
+    "__version": 1,
+    "Flags": 0,
+    "Name": "Player",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkInterpolation": true,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "BoatGame.BoatController",
+        "__guid": "4328a930-6091-4b48-a774-1d23f126cdde",
+        "__enabled": true,
+        "AccelerationCurve": {
+          "rangey": "0,0.8305556",
+          "frames": [
+            {
+              "x": 0,
+              "y": 0.6053512,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 0.5125,
+              "y": 0.99665546,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ]
+        },
+        "CameraOffset": "0,512,64",
+        "Floaters": [
+          {
+            "_type": "gameobject",
+            "go": "e10f39e9-2c58-4393-aed3-aaad5e84637c"
+          },
+          {
+            "_type": "gameobject",
+            "go": "15a4f103-7467-4c9b-94c5-9c77aa45bdba"
+          },
+          {
+            "_type": "gameobject",
+            "go": "8e347439-ba74-420e-b8dd-1f79892623fb"
+          },
+          {
+            "_type": "gameobject",
+            "go": "6a1f1681-8011-47e2-b2a0-f518756b015c"
+          }
+        ],
+        "MaxSpeedMPH": 90,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "SpringDamping": 5,
+        "SpringStrength": 50,
+        "TurnSpeed": 5
+      },
+      {
+        "__type": "Sandbox.Rigidbody",
+        "__guid": "7f8704b6-3dee-4213-b01d-f7685d9160df",
+        "__enabled": true,
+        "AngularDamping": 1,
+        "EnableImpactDamage": true,
+        "Gravity": true,
+        "GravityScale": 1,
+        "ImpactDamage": 0,
+        "LinearDamping": 1,
+        "Locking": {
+          "X": false,
+          "Y": false,
+          "Z": false,
+          "Pitch": false,
+          "Yaw": false,
+          "Roll": false
+        },
+        "MassCenterOverride": "0,0,0",
+        "MassOverride": 0,
+        "MinImpactDamageSpeed": 500,
+        "MotionEnabled": true,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OverrideMassCenter": true,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "915a6ec2-daf9-4c28-8a42-0519cab72862",
+        "__version": 1,
+        "Flags": 0,
+        "Name": "Floaters",
+        "Position": "0,0,0",
+        "Rotation": "0,0,-0.7071066,0.7071068",
+        "Scale": "1,1,1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkInterpolation": true,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
+        "Components": [],
+        "Children": [
+          {
+            "__guid": "e10f39e9-2c58-4393-aed3-aaad5e84637c",
+            "__version": 1,
+            "Flags": 0,
+            "Name": "Front Right",
+            "Position": "16,48,8",
+            "Rotation": "0,0,0,1",
+            "Scale": "1,1,1",
+            "Tags": "",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkInterpolation": true,
+            "NetworkOrphaned": 0,
+            "NetworkTransmit": true,
+            "OwnerTransfer": 1,
+            "Components": [],
+            "Children": []
+          },
+          {
+            "__guid": "15a4f103-7467-4c9b-94c5-9c77aa45bdba",
+            "__version": 1,
+            "Flags": 0,
+            "Name": "Front Left",
+            "Position": "-16,48,8",
+            "Rotation": "0,0,0,1",
+            "Scale": "1,1,1",
+            "Tags": "",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkInterpolation": true,
+            "NetworkOrphaned": 0,
+            "NetworkTransmit": true,
+            "OwnerTransfer": 1,
+            "Components": [],
+            "Children": []
+          },
+          {
+            "__guid": "8e347439-ba74-420e-b8dd-1f79892623fb",
+            "__version": 1,
+            "Flags": 0,
+            "Name": "Back Right",
+            "Position": "32,-88,8",
+            "Rotation": "0,0,0,1",
+            "Scale": "1,1,1",
+            "Tags": "",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkInterpolation": true,
+            "NetworkOrphaned": 0,
+            "NetworkTransmit": true,
+            "OwnerTransfer": 1,
+            "Components": [],
+            "Children": []
+          },
+          {
+            "__guid": "6a1f1681-8011-47e2-b2a0-f518756b015c",
+            "__version": 1,
+            "Flags": 0,
+            "Name": "Back Left",
+            "Position": "-32,-88,8",
+            "Rotation": "0,0,0,1",
+            "Scale": "1,1,1",
+            "Tags": "",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkInterpolation": true,
+            "NetworkOrphaned": 0,
+            "NetworkTransmit": true,
+            "OwnerTransfer": 1,
+            "Components": [],
+            "Children": []
+          }
+        ]
+      },
+      {
+        "__guid": "f5b6dc02-056f-4fc0-a46b-c4dcb9155fcd",
+        "__version": 1,
+        "Flags": 0,
+        "Name": "Model",
+        "Position": "0,0,0",
+        "Rotation": "0,0,-0.7071066,0.7071068",
+        "Scale": "1,1,1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkInterpolation": true,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "f11af00b-4dad-4de8-99f4-476541c580f9",
+            "__enabled": true,
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "LodOverride": null,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Materials": null,
+            "Model": "model/19/untitled_92.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "7ff5f557-98ce-4712-98bb-38135d517375",
+            "__enabled": true,
+            "ColliderFlags": 0,
+            "Elasticity": null,
+            "Friction": null,
+            "IsTrigger": false,
+            "Model": "model/19/untitled_92.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "RollingResistance": null,
+            "Static": false,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ],
+        "Children": []
+      }
+    ]
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [
+    "tesssssssssst.untitled_0451014501540#34614"
+  ],
+  "__version": 2
+}

@@ -58,7 +58,7 @@ public partial class BoatController : Component
 		
 		if ( Input.AnalogMove.x.AlmostEqual( 0 ) )
 		{
-			driveForce = -driveVel * Rb.Mass * 2;
+			driveForce = -driveVel * Rb.Mass * 0.01f;
 		}
 		if ( driveVel >= MaxSpeed ) driveForce = 0;
 	
